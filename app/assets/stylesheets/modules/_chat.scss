@@ -1,9 +1,11 @@
 .chat {
     width: calc(100% - 300px);
     .header {
+        background-color: #fff;
         box-sizing: border-box;
         height: 100px;
         padding: 0 40px;
+        background-color: #fff;
         .left-header {
             float: left;
             &__title {
