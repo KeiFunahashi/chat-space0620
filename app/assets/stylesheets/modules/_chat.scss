@@ -68,9 +68,7 @@
         }
     }
     .form {
-        position: fixed;
         bottom: 0;
-        width: calc(100% - 300px);
         background-color: #DDDDDD;
         box-sizing: border-box;
         height: 90px;
@@ -109,4 +107,8 @@
 
 a:-webkit-any-link {
     text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
